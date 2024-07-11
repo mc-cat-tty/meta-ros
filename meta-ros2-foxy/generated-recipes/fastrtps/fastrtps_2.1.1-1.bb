@@ -62,4 +62,8 @@ S = "${WORKDIR}/git"
 
 ROS_BUILD_TYPE = "cmake"
 
+SRC_URI =+ " \ 
+    file://001-fastrtps-cstdint.patch;apply=yes \
+"
+
 inherit ros_${ROS_BUILD_TYPE}

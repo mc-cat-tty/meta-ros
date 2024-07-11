@@ -1,0 +1,12 @@
+diff --git a/include/rcpputils/filesystem_helper.hpp b/include/rcpputils/filesystem_helper.hpp
+index 51df262..c61a271 100644
+--- a/include/rcpputils/filesystem_helper.hpp
++++ b/include/rcpputils/filesystem_helper.hpp
+@@ -52,6 +52,7 @@
+ #include <cstring>
+ #include <string>
+ #include <vector>
++#include <cstdint>
+ 
+ /**
+  * \def RCPPUTILS_IMPL_OS_DIRSEP

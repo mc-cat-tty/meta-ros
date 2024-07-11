@@ -10,8 +10,9 @@ AUTHOR = "Steven! Ragnarök <stevenragnarok@osrfoundation.org>"
 ROS_AUTHOR = "Mirza Shah"
 HOMEPAGE = "http://ros.org/wiki/class_loader"
 SECTION = "devel"
-LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=10;endline=10;md5=d566ef916e9dedc494f5f793a6690ba5"
+
+LICENSE = "CLOSED"
+LIC_FILES_CHKSUM = ""
 
 ROS_CN = "class_loader"
 ROS_BPN = "class_loader"

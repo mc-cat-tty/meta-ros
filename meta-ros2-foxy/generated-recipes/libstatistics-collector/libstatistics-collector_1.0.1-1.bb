@@ -68,4 +68,8 @@ S = "${WORKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 
+SRC_URI =+ " \ 
+    file://001-libstatistics-collector-cstdint.patch;apply=yes \
+"
+
 inherit ros_${ROS_BUILD_TYPE}

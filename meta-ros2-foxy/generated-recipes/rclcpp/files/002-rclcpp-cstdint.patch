@@ -1,0 +1,12 @@
+diff --git a/include/rclcpp_lifecycle/state.hpp b/include/rclcpp_lifecycle/state.hpp
+index 77c1feb6..6c9b843e 100644
+--- a/include/rclcpp_lifecycle/state.hpp
++++ b/include/rclcpp_lifecycle/state.hpp
+@@ -16,6 +16,7 @@
+ #define RCLCPP_LIFECYCLE__STATE_HPP_
+ 
+ #include <string>
++#include <cstdint>
+ 
+ #include "rclcpp_lifecycle/visibility_control.h"
+ 

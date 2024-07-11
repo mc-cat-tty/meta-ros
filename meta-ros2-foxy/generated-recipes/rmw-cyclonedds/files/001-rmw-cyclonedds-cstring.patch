@@ -1,0 +1,12 @@
+diff --git a/src/Serialization.cpp b/src/Serialization.cpp
+index 8263c58..60f3f83 100644
+--- a/src/Serialization.cpp
++++ b/src/Serialization.cpp
+@@ -26,6 +26,7 @@
+ #include <unordered_map>
+ #include <utility>
+ #include <vector>
++#include <cstring>
+ 
+ #include "TypeSupport2.hpp"
+ #include "bytewise.hpp"

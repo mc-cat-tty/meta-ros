@@ -1,0 +1,52 @@
+diff --git a/include/fastdds/dds/core/status/StatusMask.hpp b/include/fastdds/dds/core/status/StatusMask.hpp
+index 97e5d2a1..22fb2abc 100644
+--- a/include/fastdds/dds/core/status/StatusMask.hpp
++++ b/include/fastdds/dds/core/status/StatusMask.hpp
+@@ -23,6 +23,7 @@
+ 
+ #include <bitset>
+ #include <sstream>
++#include <cstdint>
+ 
+ //!Alias of size_t(16)
+ #define FASTDDS_STATUS_COUNT size_t(16)
+diff --git a/include/fastdds/rtps/transport/SocketTransportDescriptor.h b/include/fastdds/rtps/transport/SocketTransportDescriptor.h
+index 87ecc50c..04525827 100644
+--- a/include/fastdds/rtps/transport/SocketTransportDescriptor.h
++++ b/include/fastdds/rtps/transport/SocketTransportDescriptor.h
+@@ -17,9 +17,7 @@
+ 
+ #include <fastdds/rtps/transport/TransportDescriptorInterface.h>
+ 
+-#ifdef _WIN32
+ #include <cstdint>
+-#endif
+ #include <vector>
+ #include <string>
+ 
+diff --git a/include/fastdds/rtps/transport/TransportDescriptorInterface.h b/include/fastdds/rtps/transport/TransportDescriptorInterface.h
+index 5046df9f..f65add79 100644
+--- a/include/fastdds/rtps/transport/TransportDescriptorInterface.h
++++ b/include/fastdds/rtps/transport/TransportDescriptorInterface.h
+@@ -15,9 +15,7 @@
+ #ifndef _FASTDDS_TRANSPORT_DESCRIPTOR_INTERFACE_H_
+ #define _FASTDDS_TRANSPORT_DESCRIPTOR_INTERFACE_H_
+ 
+-#ifdef _WIN32
+ #include <cstdint>
+-#endif
+ #include <vector>
+ #include <string>
+ 
+diff --git a/include/fastrtps/types/TypeNamesGenerator.h b/include/fastrtps/types/TypeNamesGenerator.h
+index a8f45e01..d492bfed 100644
+--- a/include/fastrtps/types/TypeNamesGenerator.h
++++ b/include/fastrtps/types/TypeNamesGenerator.h
+@@ -5,6 +5,7 @@
+ 
+ #include <string>
+ #include <vector>
++#include <cstdint>
+ 
+ namespace eprosima {
+ namespace fastrtps {

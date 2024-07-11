@@ -1,0 +1,24 @@
+diff --git a/include/rclcpp/context.hpp b/include/rclcpp/context.hpp
+index 57e73753..174bdaf0 100644
+--- a/include/rclcpp/context.hpp
++++ b/include/rclcpp/context.hpp
+@@ -25,6 +25,7 @@
+ #include <unordered_map>
+ #include <utility>
+ #include <vector>
++#include <stdexcept>
+ 
+ #include "rcl/context.h"
+ #include "rcl/guard_condition.h"
+diff --git a/src/rclcpp/logging_mutex.cpp b/src/rclcpp/logging_mutex.cpp
+index 308a21fe..bbbe9bbe 100644
+--- a/src/rclcpp/logging_mutex.cpp
++++ b/src/rclcpp/logging_mutex.cpp
+@@ -14,6 +14,7 @@
+ 
+ #include <memory>
+ #include <mutex>
++#include <stdexcept>
+ 
+ #include "rcutils/macros.h"
+ 
