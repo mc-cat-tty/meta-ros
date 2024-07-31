@@ -10,8 +10,9 @@ AUTHOR = "Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>"
 ROS_AUTHOR = "Ivor Wanders <ivor@iwanders.net>"
 HOMEPAGE = "http://wiki.ros.org/can_msgs"
 SECTION = "devel"
-LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc494f5f793a6690ba5"
+
+LICENSE = "CLOSED"
+LIC_FILES_CHKSUM = ""
 
 ROS_CN = "ros_canopen"
 ROS_BPN = "can_msgs"
